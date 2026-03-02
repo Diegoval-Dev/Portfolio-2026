@@ -1,0 +1,72 @@
+import type { Experience } from '@/types'
+
+export const experiences: Experience[] = [
+  {
+    id: 'workly',
+    role: {
+      en: 'Full-Stack Developer',
+      es: 'Full-Stack Developer',
+    },
+    company: 'Workly',
+    period: {
+      en: 'Jul 2024 – Present',
+      es: 'Jul 2024 – Presente',
+    },
+    location: 'Guatemala (Hty)',
+    type: {
+      en: 'Full-time',
+      es: 'Tiempo completo',
+    },
+    description: {
+      en: 'Contributing to the development and evolution of a scalable payroll management platform, focusing on modern frontend architecture and reliable backend services.',
+      es: 'Contribuyendo al desarrollo y evolución de una plataforma escalable de gestión de planillas, con enfoque en arquitectura frontend moderna y servicios backend confiables.',
+    },
+    achievements: {
+      en: [
+        'Migrated an existing MVP into a production-ready platform, improving performance, scalability, and maintainability',
+        'Developed and maintained core features using React, Next.js, MUI, Node.js, and NestJS with TypeScript',
+        'Designed and implemented new functionalities with efficient MongoDB integration',
+        'Collaborated with cross-functional teams to enhance UI/UX and ensure reliable production deployments',
+        'Contributed to architectural improvements to support system growth and long-term maintainability',
+      ],
+      es: [
+        'Migré un MVP existente hacia una plataforma lista para producción, mejorando rendimiento, escalabilidad y mantenibilidad',
+        'Desarrollé y mantuve funcionalidades clave utilizando React, Next.js, MUI, Node.js y NestJS con TypeScript',
+        'Diseñé e implementé nuevas funcionalidades con integración eficiente a MongoDB',
+        'Colaboré con equipos multidisciplinarios para mejorar UI/UX y garantizar despliegues confiables en producción',
+        'Contribuí a mejoras arquitectónicas para soportar el crecimiento del sistema y su mantenibilidad a largo plazo',
+      ],
+    },
+    tags: ['React', 'Next.js', 'TypeScript', 'Node.js', 'NestJS', 'MongoDB', 'MUI'],
+    current: true,
+  },
+]
+
+export const education = [
+  {
+    id: 'uvg',
+    degree: {
+      en: 'B.S. in Computer Science & IT Engineering',
+      es: 'Ingeniería en Ciencias de la Computación y Tecnologías de la Información',
+    },
+    institution: 'Universidad del Valle de Guatemala',
+    period: '2022 – 2026',
+    location: 'Guatemala City, Guatemala',
+    description: {
+      en: 'Comprehensive computer science program with strong foundations in algorithms, operating systems, compilers, databases, networking, artificial intelligence, and software engineering.',
+      es: 'Programa integral de ciencias de la computación con bases sólidas en algoritmos, sistemas operativos, compiladores, bases de datos, redes, inteligencia artificial e ingeniería de software.',
+    },
+    highlights: {
+      en: [
+        'Advanced coursework in Compilers, Operating Systems, Parallel & Distributed Computing, and Deep Learning',
+        'Built a complete compiler pipeline including lexical analysis, parsing, semantic analysis, and code generation',
+        'Designed simulation and optimization models applying formal mathematical methods',
+      ],
+      es: [
+        'Cursos avanzados en Compiladores, Sistemas Operativos, Computación Paralela y Distribuida, y Deep Learning',
+        'Construcción de un compilador completo incluyendo análisis léxico, sintáctico, semántico y generación de código',
+        'Diseño de modelos de simulación y optimización aplicando métodos matemáticos formales',
+      ],
+    },
+  },
+]
