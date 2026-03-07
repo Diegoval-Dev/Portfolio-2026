@@ -14,7 +14,7 @@ export const projects: Project[] = [
     },
     category: ['AI'],
     tags: ['Python', 'LLMs', 'NLP', 'FastAPI', 'Prompt Engineering'],
-    github: 'Diegoval-Dev/DeL-Proyecto',
+    github: 'Diegoval-Dev/ActionMiner',
     featured: true,
     year: '2024',
   },
