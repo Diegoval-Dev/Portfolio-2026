@@ -35,8 +35,8 @@ export const translations: Record<string, { en: string; es: string }> = {
   es: "Soy Ingeniero en Ciencias de la Computación de la Universidad del Valle de Guatemala, enfocado en construir sistemas escalables en la intersección entre arquitectura backend e inteligencia artificial aplicada. Mi trabajo combina fundamentos formales sólidos con experiencia práctica desarrollando soluciones full-stack listas para producción.",
 },
 'about.bio2': {
-  en: "Currently working as a Full-Stack Developer at Workly, contributing to a scalable payroll management platform. My primary focus is on building robust, performant frontend applications with React and Next.js, while also collaborating on backend services and architectural decisions to ensure reliable, production-grade systems.",
-  es: "Actualmente trabajo como Full-Stack Developer en Workly, contribuyendo a una plataforma escalable de gestión de planillas. Mi enfoque principal está en desarrollar aplicaciones frontend robustas y de alto rendimiento con React y Next.js, colaborando también en servicios backend y decisiones arquitectónicas para garantizar sistemas confiables de nivel productivo.",
+  en: "Currently working as a Fullstack Software Engineer at nimble., building and extending a core Django/SvelteKit platform to deliver custom web applications across diverse client domains. My work spans REST API design, data modeling, responsive SvelteKit UIs, and third-party integrations — all under agile SCRUM workflows.",
+  es: "Actualmente trabajo como Ingeniero de Software Fullstack en nimble., desarrollando y extendiendo una plataforma core en Django/SvelteKit para entregar aplicaciones web personalizadas en distintos dominios de clientes. Mi trabajo abarca diseño de APIs REST, modelado de datos, interfaces responsivas con SvelteKit e integraciones con terceros, todo bajo flujos de trabajo ágiles con SCRUM.",
 },
 'about.traits': {
   en: 'Problem Solver | Systems Thinker | Production-Oriented Engineer | AI Practitioner',

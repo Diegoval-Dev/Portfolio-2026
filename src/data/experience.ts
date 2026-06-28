@@ -2,6 +2,47 @@ import type { Experience } from '@/types'
 
 export const experiences: Experience[] = [
   {
+    id: 'nimble',
+    role: {
+      en: 'Fullstack Software Engineer',
+      es: 'Ingeniero de Software Fullstack',
+    },
+    company: 'nimble.',
+    period: {
+      en: 'Jun 2026 – Present',
+      es: 'Jun 2026 – Presente',
+    },
+    location: 'Guatemala (Hybrid)',
+    type: {
+      en: 'Full-time',
+      es: 'Tiempo completo',
+    },
+    description: {
+      en: 'Building and extending a core Django/SvelteKit platform to deliver custom web applications for diverse clients, spanning backend architecture, REST APIs, and responsive frontend interfaces.',
+      es: 'Desarrollo y extensión de una plataforma core en Django/SvelteKit para entregar aplicaciones web personalizadas a distintos clientes, abarcando arquitectura backend, APIs REST e interfaces frontend responsivas.',
+    },
+    achievements: {
+      en: [
+        'Develop complete full-stack applications using a shared Django and SvelteKit core platform adapted per client domain',
+        'Design data models, REST API endpoints, and serialized views with Django REST Framework',
+        'Build responsive UIs with SvelteKit, TypeScript, and Tailwind CSS following pixel-perfect design specs',
+        'Integrate third-party services including payment gateways, social auth, and email providers',
+        'Work under SCRUM with 2-week sprints, participating from planning through production deployment',
+        'Enforce quality standards via pre-commit hooks, Black, Flake8, Prettier, and automated testing with pytest and Playwright',
+      ],
+      es: [
+        'Desarrollo de aplicaciones full-stack completas usando una plataforma core compartida en Django y SvelteKit adaptada por dominio de cliente',
+        'Diseño de modelos de datos, endpoints REST y vistas serializadas con Django REST Framework',
+        'Construcción de interfaces responsivas con SvelteKit, TypeScript y Tailwind CSS siguiendo especificaciones de diseño al píxel',
+        'Integración de servicios de terceros incluyendo pasarelas de pago, autenticación social y proveedores de email',
+        'Trabajo bajo SCRUM con sprints de 2 semanas, participando desde la planificación hasta el despliegue en producción',
+        'Aplicación de estándares de calidad mediante pre-commit hooks, Black, Flake8, Prettier y pruebas automatizadas con pytest y Playwright',
+      ],
+    },
+    tags: ['Django', 'SvelteKit', 'TypeScript', 'Tailwind CSS', 'Python', 'REST APIs', 'Docker', 'pytest', 'Playwright'],
+    current: true,
+  },
+  {
     id: 'workly',
     role: {
       en: 'Full-Stack Developer',
@@ -9,8 +50,8 @@ export const experiences: Experience[] = [
     },
     company: 'Workly',
     period: {
-      en: 'Jul 2024 – Present',
-      es: 'Jul 2024 – Presente',
+      en: 'Jul 2024 – Jun 2026',
+      es: 'Jul 2024 – Jun 2026',
     },
     location: 'Guatemala (Hty)',
     type: {
@@ -38,7 +79,7 @@ export const experiences: Experience[] = [
       ],
     },
     tags: ['React', 'Next.js', 'TypeScript', 'Node.js', 'NestJS', 'MongoDB', 'MUI'],
-    current: true,
+    current: false,
   },
 ]
 
