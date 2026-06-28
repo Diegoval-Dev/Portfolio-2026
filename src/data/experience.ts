@@ -9,8 +9,8 @@ export const experiences: Experience[] = [
     },
     company: 'nimble.',
     period: {
-      en: 'Jun 2026 – Present',
-      es: 'Jun 2026 – Presente',
+      en: 'Mar 2026 – Present',
+      es: 'Mar 2026 – Presente',
     },
     location: 'Guatemala (Hybrid)',
     type: {
@@ -50,8 +50,8 @@ export const experiences: Experience[] = [
     },
     company: 'Workly',
     period: {
-      en: 'Jul 2024 – Jun 2026',
-      es: 'Jul 2024 – Jun 2026',
+      en: 'Jul 2024 – Mar 2026',
+      es: 'Jul 2024 – Mar 2026',
     },
     location: 'Guatemala (Hty)',
     type: {
