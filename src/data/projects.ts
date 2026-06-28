@@ -2,6 +2,23 @@ import type { Project } from '@/types'
 
 export const projects: Project[] = [
   {
+    id: 'the-council',
+    title: 'The Council',
+    shortDesc: {
+      en: 'A multi-AI deliberation chamber where Claude, GPT, and Gemini debate your hardest questions out loud.',
+      es: 'Una cámara de deliberación multi-IA donde Claude, GPT y Gemini debaten tus preguntas más difíciles en voz alta.',
+    },
+    longDesc: {
+      en: 'The Council orchestrates a live debate between three AI models — each with a distinct persona and voice. Claude plays the ethical philosopher, GPT the pragmatic strategist, and Gemini the contrarian analyst. Responses stream in real time, each model aware of what the previous ones said, and a moderator synthesizes agreements, disagreements, and a final recommendation.',
+      es: 'The Council orquesta un debate en vivo entre tres modelos de IA, cada uno con una personalidad y voz distintas. Claude interpreta al filósofo ético, GPT al estratega pragmático y Gemini al analista contrario. Las respuestas se transmiten en tiempo real, cada modelo consciente de lo dicho anteriormente, y un moderador sintetiza acuerdos, desacuerdos y una recomendación final.',
+    },
+    category: ['AI'],
+    tags: ['Next.js', 'TypeScript', 'Vercel AI SDK', 'Anthropic', 'OpenAI', 'Gemini', 'ElevenLabs', 'Tailwind CSS'],
+    github: 'Diegoval-Dev/the-council',
+    featured: true,
+    year: '2026',
+  },
+  {
     id: 'actionminer',
     title: 'ActionMiner Lite',
     shortDesc: {
