@@ -12,7 +12,7 @@ export const experiences: Experience[] = [
       en: 'Mar 2026 – Present',
       es: 'Mar 2026 – Presente',
     },
-    location: 'Guatemala (Hybrid)',
+    location: 'Guatemala (Remote)',
     type: {
       en: 'Full-time',
       es: 'Tiempo completo',
@@ -53,7 +53,7 @@ export const experiences: Experience[] = [
       en: 'Jul 2024 – Mar 2026',
       es: 'Jul 2024 – Mar 2026',
     },
-    location: 'Guatemala (Hty)',
+    location: 'Guatemala (Hybrid)',
     type: {
       en: 'Full-time',
       es: 'Tiempo completo',
