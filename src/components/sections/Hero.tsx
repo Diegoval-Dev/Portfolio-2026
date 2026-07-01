@@ -100,7 +100,7 @@ export function Hero() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/diego-valenzuela-palacios"
+              href="https://linkedin.com/in/diegoval-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2.5 rounded-xl border border-[rgba(255,255,255,0.08)] bg-[rgba(255,255,255,0.04)] text-text-muted hover:text-text-primary hover:border-[rgba(99,102,241,0.4)] hover:bg-[rgba(99,102,241,0.08)] transition-all duration-200"

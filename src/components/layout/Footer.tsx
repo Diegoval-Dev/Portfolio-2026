@@ -25,7 +25,7 @@ export function Footer() {
               <Github size={18} />
             </a>
             <a
-              href="https://linkedin.com/in/diego-valenzuela-palacios"
+              href="https://linkedin.com/in/diegoval-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-text-faint hover:text-text-primary transition-colors"
