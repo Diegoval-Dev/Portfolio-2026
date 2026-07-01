@@ -7,7 +7,7 @@ export const experiences: Experience[] = [
       en: 'Fullstack Software Engineer',
       es: 'Ingeniero de Software Fullstack',
     },
-    company: 'nimble.',
+    company: 'Nimble',
     period: {
       en: 'Mar 2026 – Present',
       es: 'Mar 2026 – Presente',
