@@ -45,8 +45,8 @@ export const experiences: Experience[] = [
   {
     id: 'workly',
     role: {
-      en: 'Full-Stack Developer',
-      es: 'Full-Stack Developer',
+      en: 'Junior Full-Stack Developer',
+      es: 'Full-Stack Developer Junior',
     },
     company: 'Workly',
     period: {
